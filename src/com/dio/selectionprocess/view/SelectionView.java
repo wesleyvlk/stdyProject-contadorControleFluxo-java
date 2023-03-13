@@ -18,7 +18,7 @@ public class SelectionView {
         System.out.format("%nCase 2. ArrayList de candidates e metodo selectCandidates:%n");
         String[] selectedCandidates = getController().selectCandidates(getController().candidatesList);
 
-        System.out.format("%nCase 3. Metodo listSelectedCandidates com array selectedCandidates:%n");
+        System.out.format("%nCase 3. Metodo showSelectedCandidates com array selectedCandidates:%n");
         getController().showSelectedCandidates(selectedCandidates);
 
         System.out.format("%nCase 4. metodo callSelectedCandidate com array selectedCandidates:%n");
